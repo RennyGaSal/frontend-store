@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>el_dev Store</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logo" />
+      </a>
+    </header>
+    <nav class="nav">
+      <a class="nav__link" href="index.html">Shop</a>
+      <a class="nav__link" href="about_us.html">About Us</a>
+    </nav>
+    <main class="container">
+      <h1>ReactJS</h1>
+      <div class="shirt">
+        <img class="shirt__img" src="img/3.jpg" alt="ReactJS Shirt" />
+        <div class="shirt__content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            minima beatae ipsa at soluta maxime obcaecati deserunt officia.
+            Excepturi sed mollitia ullam animi iste, beatae quae dolorum
+            praesentium fuga dolores!
+          </p>
+          <form class="form">
+            <select class="form__field">
+              <option selected disabled>-- Select Size --</option>
+              <option>Small (S)</option>
+              <option>Medium (M)</option>
+              <option>Large (L)</option>
+            </select>
+            <input
+              class="form__field"
+              type="number"
+              min="1"
+              placeholder="Quantity"
+            />
+            <input class="form__submit" type="submit" value="Add to Cart" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">el_dev Store - All rights reserved 2024.</p>
+    </footer>
+  </body>
+</html>
